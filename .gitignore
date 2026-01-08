@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.pytype/
+ruff_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.log
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment files / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Local tooling
+*.swp
+
+# Docker local overrides (optional)
+docker-compose.override.yml
